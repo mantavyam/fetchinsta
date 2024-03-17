@@ -1,3 +1,4 @@
+# REPLACE BELOW USERNAME, PASSWORD AND EXCEL FILE CONTAINING INSTA POST LINKS WITH A COLUMN NAMED "Link"
 import os
 import time
 import pandas as pd
@@ -5,9 +6,9 @@ from instaloader import Instaloader, Post
 from instaloader.exceptions import QueryReturnedBadRequestException
 
 # Credentials
-username = "alofrutcc"
-password = "SECURE@alo24"
-excel_file = r"E:\clubhouse\mega-plan\DOWNLOAD-Posts-IG.xlsx"
+username = "your_usrname-no-@"
+password = "your-pwd"
+excel_file = r"C:\folder-name\file-name.xlsx"
 
 # Create main directory
 main_directory = "./InstagramPosts"
