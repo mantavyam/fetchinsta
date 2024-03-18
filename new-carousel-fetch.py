@@ -5,9 +5,9 @@ from instaloader import Instaloader, Post
 from instaloader.exceptions import QueryReturnedBadRequestException, ConnectionException
 
 # Credentials
-username = "alofrutcc"
-password = "SECURE@alo24"
-excel_file = r"E:\clubhouse\mega-plan\DOWNLOAD-Posts-IG.xlsx"
+username = "USERNAME"
+password = "PWD"
+excel_file = r"E:\LOCATION.xlsx"
 
 # Create main directory
 main_directory = "./InstagramPosts"
